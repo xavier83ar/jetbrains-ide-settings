@@ -1,14 +1,6 @@
 <application>
   <component name="UpdatesConfigurable">
-    <ignoredBuildNumbers>
-      <item value="139.732" />
-      <item value="139.1348" />
-      <item value="141.1815" />
-      <item value="172.4155.25" />
-    </ignoredBuildNumbers>
-    <option name="LAST_BUILD_CHECKED" value="PS-211.7628.25" />
-    <option name="LAST_TIME_CHECKED" value="1626181282502" />
-    <option name="THIRD_PARTY_PLUGINS_ALLOWED" value="true" />
-    <option name="UPDATE_CHANNEL_TYPE" value="milestone" />
+    <option name="LAST_BUILD_CHECKED" value="WS-211.7628.25" />
+    <option name="LAST_TIME_CHECKED" value="1626145691303" />
   </component>
 </application>
