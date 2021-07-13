@@ -1,0 +1,11 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://plugins.intellij.net/xstructure/ns/xstructure_1_0.xsd" location="$USER_HOME$/file:/home/javier/.local/share/JetBrains/PhpStorm2020.1/xstructure/lib/xstructure.jar!/org/sylfra/idea/plugins/xstructure/resources/schemas/xstructure_1_0.xsd" />
+    <resource url="http://plugins.intellij.net/xstructure/ns/xstructure_1_1.xsd" location="$USER_HOME$/file:/home/javier/.local/share/JetBrains/PhpStorm2020.1/xstructure/lib/xstructure.jar!/org/sylfra/idea/plugins/xstructure/resources/schemas/xstructure_1_1.xsd" />
+    <resource url="http://www.apple.com/DTDs/PropertyList-1.0.dtd" location="$USER_HOME$/.cache/JetBrains/PhpStorm2020.3/extResources/c3961c84_PropertyList-1.0.dtd" />
+    <ignored-resource url="http://archipelago.phrasewise.com/rsd" />
+    <ignored-resource url="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" />
+    <ignored-resource url="urn:schemas-microsoft-com:office:office" />
+    <ignored-resource url="urn:schemas-microsoft-com:vml" />
+  </component>
+</application>

@@ -1,0 +1,80 @@
+<templateSet group="html/xml">
+  <template name="t" value="&lt;$TAG$ $ATTRS$&gt;$END$&lt;/$TAG_NAME$&gt;" description="Tag pair" toReformat="true" toShortenFQNames="true">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ATTRS" expression="" defaultValue="&quot;&quot;" alwaysStopAt="false" />
+    <variable name="TAG_NAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="HTML_TEXT" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="JSP" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="T" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;&#10;" description="Surround with &lt;tag&gt;&lt;/tag&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="T2" value="&lt;$TAG$&gt;$SELECTION$&lt;/$TAGNAME$&gt;" description="Surround with &lt;tag&gt;&lt;/tag&gt; in HTML/JSP" toReformat="false" toShortenFQNames="false">
+    <variable name="TAG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TAGNAME" expression="firstWord(TAG)" defaultValue="&quot;&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JSP" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php $END$ ?&gt;" description="Open php tags" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="start" value="&lt;?php $this-&gt;start('$BLOCKNAME$'); ?&gt;&#10;$END$&#10;&lt;?php $this-&gt;end(); ?&gt;" description="Inserta un bloque cakephp" toReformat="false" toShortenFQNames="true">
+    <variable name="BLOCKNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="this" value="&lt;?php $this-&gt;$END$ ?&gt;" description="Referncia a View en las vistas" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="c" value="&lt;!-- $END$ --&gt;" description="Comment block" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="=" value="&lt;?= $END$ ?&gt;" description="Short tagged php echoing block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="eco" value="&lt;?php echo $END$ ?&gt;" description="Php echo block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

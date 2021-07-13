@@ -1,0 +1,29 @@
+<templateSet group="PHP">
+  <template name="ckurl" value="array('controller' =&gt; $controller$, 'action' =&gt; $action$ $params$) $end$" description="Array of controller and action for cakephp" toReformat="false" toShortenFQNames="true">
+    <variable name="controller" expression="" defaultValue="controller" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="action" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ccm" value="&lt;?php //*/ ?&gt;" description="php comment super tags" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="d" value="die();" description="php die()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rbody" value="return $this-&gt;response-&gt;withStringBody('&lt;body&gt;&lt;/body&gt;');" description="return body response" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

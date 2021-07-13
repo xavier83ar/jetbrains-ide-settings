@@ -1,0 +1,60 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="hYlh0pIfF3uuh9NvMLnw" type="AUTO_DETECTED" />
+      <mapping pattern="Dockerfile-dev" type="Dockerfile" />
+      <mapping pattern="*.path.template" type="Ini" />
+      <mapping pattern="*.service.template" type="Ini" />
+      <mapping pattern="apple-app-site-association" type="JSON" />
+      <mapping ext="graphqlconfig" type="JSON" />
+      <mapping ext="mwb" type="Native" />
+      <mapping ext="ttf" type="Native" />
+      <mapping ext="mo" type="Native" />
+      <mapping pattern="*.js.ctp" type="PHP" />
+      <mapping pattern="bootstrap.php.cache" type="PHP" />
+      <mapping pattern="myapp_cake_routes_route_collection" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="bala-191113" type="PLAIN_TEXT" />
+      <mapping pattern="sess_cab0395ae1ac944029dbdf2be1dae92b" type="PLAIN_TEXT" />
+      <mapping pattern="myapp_cake_model_default_domicilios" type="PLAIN_TEXT" />
+      <mapping pattern="README" type="PLAIN_TEXT" />
+      <mapping pattern="myapp_cake_core_translations_default_es__a_r" type="PLAIN_TEXT" />
+      <mapping pattern="myapp_cake_model_sf_archivo" type="PLAIN_TEXT" />
+      <mapping pattern="donacion" type="PLAIN_TEXT" />
+      <mapping pattern="ccu_cake_core_translations_cake_es__a_r" type="PLAIN_TEXT" />
+      <mapping pattern=".key" type="PLAIN_TEXT" />
+      <mapping pattern="empty" type="PLAIN_TEXT" />
+      <mapping pattern="myapp_cake_model_sf_reportegeneral" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="terminal3_cake_core_translations_default_es__a_r" type="PLAIN_TEXT" />
+      <mapping pattern="core" type="PLAIN_TEXT" />
+      <mapping pattern="sess_6587b51e9c9100dbe1e850267c22524e" type="PLAIN_TEXT" />
+      <mapping ext="cache" type="PLAIN_TEXT" />
+      <mapping ext="default" type="PLAIN_TEXT" />
+      <mapping ext="desktop" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
+      <mapping ext="path" type="PLAIN_TEXT" />
+      <mapping pattern=".project" type="XML" />
+      <mapping ext="plist" type="XML" />
+      <mapping pattern="default.conf" type="nginx" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="plist" approved="true" type="AUTO_DETECTED" />
+      <removed_mapping ext="py" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping ext="tsv" approved="true" type="TSV" />
+      <removed_mapping pattern="apple-app-site-association" approved="true" type="AUTO_DETECTED" />
+      <removed_mapping pattern="menu" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern="*.sh.template" type="Bash" />
+      <mapping pattern="cake" type="Bash" />
+      <mapping pattern="tiny-upload.less" type="LESS" />
+    </extensionMap>
+  </component>
+</application>

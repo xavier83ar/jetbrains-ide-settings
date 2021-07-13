@@ -1,0 +1,11 @@
+<application>
+  <component name="MessDetector">
+    <phpmd_settings_migrated />
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
+    <phpcs_settings>
+      <PhpCSConfiguration standards="CakePHP;MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="/var/www/Local/AdminLteCake/vhosts/adminltecake.loc/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+</application>

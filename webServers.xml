@@ -1,0 +1,118 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="780a9c12-4265-4f93-9c32-cb70cc8202bc" name="Soluciones ypunto" url="http://solucionesypunto.com">
+        <fileTransfer host="solucionesypunto.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5f46f5f0-c59e-4ad6-94b6-b703d3c42fbf" name="Casino JUE02" url="http://192.168.100.74">
+        <fileTransfer rootFolder="/var/www" accessType="SFTP" host="192.168.100.74" port="22" sshConfigId="647fdbcb-499c-4e5f-a7e6-774626c0d08e" sshConfig="Casino JUE02">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="00c22d0b-e8f0-40eb-a472-9003f85f0338" name="Intranet server casino" url="http://192.168.200.20">
+        <fileTransfer rootFolder="/var/www/intranetrivera" accessType="SFTP" host="192.168.200.20" port="22" sshConfigId="529d3e8c-ab0e-47b4-a109-4d03adad4d57" sshConfig="Intranet server casino">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="46d89ff6-cdf2-4463-ad0e-043436c3105b" name="Intranet casino" url="http://192.168.200.20">
+        <fileTransfer rootFolder="/var/www/" accessType="SFTP" host="192.168.200.20" port="22" sshConfigId="840911df-32ef-4cf0-8813-aff7c0367b0f" sshConfig="Intranet casino">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="bd59aae0-bc3e-4cee-8672-0a5f1774242c" name="Arcadia" url="http://arcadiaconsultora.com.ar">
+        <fileTransfer rootFolder="/lenarduzzi.arcadiaconsultora.com" host="arcadiaconsultora.com.ar" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ec1ae88a-ae4a-4b5f-90b4-bef8d466d53f" name="emijaton" url="http://emiliojaton.com.ar">
+        <fileTransfer rootFolder="/httpdocs/wp-content/themes" host="emiliojaton.com.ar" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3b960db3-59cf-4742-b591-edac0b267801" name="Casino DEV01" url="http://192.168.100.32">
+        <fileTransfer rootFolder="/var/www" accessType="SFTP" host="192.168.100.32" port="22" sshConfigId="a8ec5945-d36d-49e0-9eec-82e9628b9a83" sshConfig="Casino DEV01">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fbc6ef78-33e2-42bf-a43d-154289b2a11d" name="Casino PRD01" url="http://192.168.200.40">
+        <fileTransfer rootFolder="/var/www/vhosts" accessType="SFTP" host="192.168.200.40" port="22" sshConfigId="77b1a56b-db35-462a-a427-745319a0af64" sshConfig="Casino PRD01">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c3aa92e8-2dc3-41bf-9754-892fc1741b76" name="Casino Sta Fe JUE02" url="http://192.168.100.74">
+        <fileTransfer rootFolder="/var/www" accessType="SFTP" host="192.168.100.74" port="22" sshConfigId="824b6a27-bbe8-402e-8d06-58ef054f2aa1" sshConfig="Casino Sta Fe JUE02">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2ed366d9-cfd9-4e28-a89c-dd32bdf684af" name="quenoteduerman.com" url="https://www.quenoteduerman.com">
+        <fileTransfer rootFolder="/home/dh_quenoteduerman/quenoteduerman.com" accessType="SFTP" host="quenoteduerman.com" port="22" sshConfigId="688c4d02-2239-4db7-9c1b-a04555ee3535" sshConfig="quenoteduerman.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6874a170-2707-4069-8ee4-2555fadfe0b6" name="Haimovich@dreamhost" url="https://www.haimovichtoyota.com.ar/">
+        <fileTransfer rootFolder="/haimovichtoyota.com.ar" host="frenchglen.dreamhost.com" port="21">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="b5969c5b-eefb-4dce-9344-efa9ab5bb0d6" name="bcsf.com.ar" url="https://www.bcsf.com.ar">
+        <fileTransfer rootFolder="/bolcom/bolcom_nuevo" accessType="SFTP" host="alt.bcsf.com.ar" port="23242" sshConfigId="c0612363-9b37-40d5-bc3e-78cc44fad69b" sshConfig="bcsf.com.ar">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e3d66078-4aba-4ae4-a679-d09c88a4b26d" name="Soluciones ypunto [raptor216]" url="http://raptor216.startdedicated.com">
+        <fileTransfer host="raptor216.startdedicated.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="4354820d-cd27-40d7-b27f-bd4d76aca52d" name="voii.com.ar" url="http://test.voii.com.ar">
+        <fileTransfer host="test.voii.com.ar" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a87d3e50-1992-4e0b-84a6-3404d45ee931" name="PuertoPlaza" url="https://puertoplaza.com.ar">
+        <fileTransfer rootFolder="/httpdocs" host="condor1508.startdedicated.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="179f9969-4b08-44d6-a96c-13bb3adaf443" name="shop ypunto" url="http://shop.solucionesypunto.com">
+        <fileTransfer host="shop.solucionesypunto.com" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
