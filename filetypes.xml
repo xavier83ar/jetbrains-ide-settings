@@ -1,11 +1,11 @@
 <application>
   <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs" />
     <extensionMap>
       <mapping pattern="hYlh0pIfF3uuh9NvMLnw" type="AUTO_DETECTED" />
       <mapping pattern="Dockerfile-dev" type="Dockerfile" />
-      <mapping pattern="*.path.template" type="Ini" />
       <mapping pattern="*.service.template" type="Ini" />
+      <mapping pattern="*.path.template" type="Ini" />
       <mapping pattern="apple-app-site-association" type="JSON" />
       <mapping ext="graphqlconfig" type="JSON" />
       <mapping ext="mwb" type="Native" />
@@ -13,23 +13,23 @@
       <mapping ext="mo" type="Native" />
       <mapping pattern="*.js.ctp" type="PHP" />
       <mapping pattern="bootstrap.php.cache" type="PHP" />
-      <mapping pattern="myapp_cake_routes_route_collection" type="PLAIN_TEXT" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="bala-191113" type="PLAIN_TEXT" />
-      <mapping pattern="sess_cab0395ae1ac944029dbdf2be1dae92b" type="PLAIN_TEXT" />
+      <mapping pattern="ccu_cake_core_translations_cake_es__a_r" type="PLAIN_TEXT" />
+      <mapping pattern="empty" type="PLAIN_TEXT" />
+      <mapping pattern="sess_6587b51e9c9100dbe1e850267c22524e" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="core" type="PLAIN_TEXT" />
+      <mapping pattern="myapp_cake_routes_route_collection" type="PLAIN_TEXT" />
+      <mapping pattern="donacion" type="PLAIN_TEXT" />
       <mapping pattern="myapp_cake_model_default_domicilios" type="PLAIN_TEXT" />
+      <mapping pattern="myapp_cake_model_sf_archivo" type="PLAIN_TEXT" />
+      <mapping pattern=".key" type="PLAIN_TEXT" />
+      <mapping pattern="terminal3_cake_core_translations_default_es__a_r" type="PLAIN_TEXT" />
+      <mapping pattern="sess_cab0395ae1ac944029dbdf2be1dae92b" type="PLAIN_TEXT" />
+      <mapping pattern="myapp_cake_model_sf_reportegeneral" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="myapp_cake_core_translations_default_es__a_r" type="PLAIN_TEXT" />
-      <mapping pattern="myapp_cake_model_sf_archivo" type="PLAIN_TEXT" />
-      <mapping pattern="donacion" type="PLAIN_TEXT" />
-      <mapping pattern="ccu_cake_core_translations_cake_es__a_r" type="PLAIN_TEXT" />
-      <mapping pattern=".key" type="PLAIN_TEXT" />
-      <mapping pattern="empty" type="PLAIN_TEXT" />
-      <mapping pattern="myapp_cake_model_sf_reportegeneral" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="terminal3_cake_core_translations_default_es__a_r" type="PLAIN_TEXT" />
-      <mapping pattern="core" type="PLAIN_TEXT" />
-      <mapping pattern="sess_6587b51e9c9100dbe1e850267c22524e" type="PLAIN_TEXT" />
       <mapping ext="cache" type="PLAIN_TEXT" />
       <mapping ext="default" type="PLAIN_TEXT" />
       <mapping ext="desktop" type="PLAIN_TEXT" />
