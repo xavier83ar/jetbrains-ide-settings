@@ -68,5 +68,6 @@
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/Escritorio" />
+    <option name="SHOW_DIFF_ON_DOUBLE_CLICK" value="true" />
   </component>
 </application>
