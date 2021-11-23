@@ -6,5 +6,10 @@
         <option value="Spanish" />
       </set>
     </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="LanguageTool.EN.SETUP_VERB" />
+      </set>
+    </option>
   </component>
 </application>
