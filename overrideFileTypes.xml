@@ -1,5 +1,6 @@
 <application>
   <component name="OverrideFileTypeManager">
+    <file url="file://$USER_HOME$/Trabajos/ypunto/clientes/bcsf/Capacitacion/code/capacitacion/config/app.default.php" />
     <file url="file://$USER_HOME$/Trabajos/ypunto/clientes/bcsf/cac.bcsf.loc/app/config/app.default.php" />
     <file url="file://$USER_HOME$/Trabajos/ypunto/clientes/bcsf/centro-estudios/sitio-web/app/config/app.default.php" />
     <file url="file://$USER_HOME$/Trabajos/ypunto/clientes/bcsf/centro-estudios/sitio-web/app/vendor/soluciones-ypunto/cake-admin/tests/DemoApp/src/Controller/AppController.php" />
